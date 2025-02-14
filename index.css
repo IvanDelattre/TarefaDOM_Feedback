@@ -1,0 +1,507 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100% ;
+    height: 100% ;
+}
+
+
+
+
+header{
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+    height: 109px;
+    background-color: #C4C4C4;
+}
+
+header h1{
+    color: black;
+    margin-left : 10px ;
+}
+
+
+header div{
+    
+    width: 225;
+    height: 49px;
+    margin-top: 30px;
+    
+    
+}
+
+header div a{
+    display: inline-block ;
+    width: 50px ;
+    height: 49px ;
+    color: black ;
+    
+}
+
+
+
+/*---Main apresentação---*/
+
+.about {
+    width: 1440px ;
+    height: 318px ;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F3F3;
+    
+}
+
+
+.about img{
+    width: 247px ;
+    height: 247px  ;
+    margin-right : 100px ;
+    border-radius : 200px ;
+}
+
+
+
+
+
+
+
+.about p{
+    width: 614px ;
+    height: 134px ;
+    font-size: 14px;
+    font-size: 18px ;
+    margin-top: 10px ;
+}
+
+
+/*----------------Section Lists----------------------*/
+
+.lists{
+    width: 1440px;
+    height: 289px;
+    display: flex ;
+    flex-direction: row ;
+    justify-content: center ;
+    align-items: center;
+    gap: 100px;
+}
+
+
+.passatempo ul{
+    width: 595px;
+    gap: 15px;  
+    display: flex;
+    flex-direction: row;
+
+}
+
+.passatempo img{
+    width: 102px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna h1{
+    margin-left: 500px;
+}
+
+
+
+
+.top ol{
+    width: 595px;
+    gap: 15px;  
+    display: flex;
+    display: row;
+
+}
+
+.top img{
+    width: 102px;
+    height: 150px;
+    margin-top: 15px;  
+}
+
+.coluna2{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna2 h1{
+    margin-left: 15px;
+}
+
+
+.comments{
+    width: 100%;
+    min-height: 236px;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center;
+    margin-bottom: 50px ;
+    align-items: center;
+}
+
+
+.comments h2{
+    margin-left: 175px ;
+}
+
+
+.comments div form input{
+    width: 1128px;
+    height: 56px;
+    margin-left: 175px ;    
+    margin-top: 10px;
+}
+
+
+.comments div form button{
+    width: 127px ;
+    height: 37px ;
+    margin-left: 1180px ;
+    margin-top: 10px ;
+}
+
+
+.mensagem{
+    margin-top: 20px ;
+    display: flex;
+    width: 1128px ;
+    height: 126px;
+    flex-direction: column ;
+    gap: 10px ;
+    background-color: #D9D9D9;
+    border: 1px solid black;
+    margin-left: 60px ;
+
+}
+
+/*-------------footer----------------------*/
+
+
+
+footer{
+    width: 1440px;
+    height: 70px;
+    background-color: #C4C4C4;
+    padding-top : 16px ;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 897px;
+    
+}
+
+
+.redesSocias{
+    width: 188px;
+    height: 32px ;
+    padding-left: 30px ;
+    gap: 50px;
+}
+
+.redesSocias img{
+    width: 48px;
+    height: 48px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50px ;
+    margin-left: 5px;
+
+}
+
+
+.contato a button{
+    width: 162px;
+    height: 38px;
+    border-radius: 6px ;
+    border: 1px solid #C4C4C4;
+}
+
+/*-----------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------Responsividade---------------*/
+
+@media screen and (max-width : 428px ) {
+    
+    *{
+        padding: 0;
+        margin: 0 ; 
+    }
+        
+    
+    html{
+        width: 428px;
+        height: 1977px;
+    }
+
+
+    
+    body{
+        width: 428px ;
+        height: 1977px;
+
+    }
+
+    header{
+        width: 428px;
+        height: 109px ;
+        display: flex   ;
+        flex-direction: row;
+        gap: 30px;
+    }
+
+
+
+    header h1{
+        color: black;
+        margin-left : 1px ;
+    }
+    
+    
+    header div{
+        width: 225px;
+        height: 49px;
+        margin-top: 30px;
+    }
+    
+    header div a{
+        display: inline-block ;
+        width: 50px ;
+        height: 49px ;
+        color: black ;
+        
+    }
+    
+    .about{
+        width: 431px ;
+        height: 584px ;
+        display: flex ;
+        flex-direction: column;
+
+    }
+
+    .about div p{
+        margin-top: 30px;
+        margin-bottom: 30px ;
+        width: 403px ;
+        height: 242px ;
+    }
+
+    .lists{
+        width: 431px ;
+        height: 890px ;
+        display: flex ;
+        flex-direction: column;
+        align-items: center ;
+        justify-content:unset ;
+
+    }
+
+
+    .coluna{
+        display: flex ;
+        width: 400px ;
+        height: 400px ;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    .passatempo{
+        display: flex ;
+        
+    }
+
+    .passatempo ul{
+        display: flex;
+        flex-wrap: wrap ;
+        width: 424px ;
+        height: 425px ;
+        justify-content: center;
+
+        
+    }
+    
+    .coluna h1{
+        margin-left: 0px;
+        margin-right: 320px ;
+    }
+    
+
+    .coluna2{
+        display: flex ;
+        width: 424px ;
+        height: 300px ;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top{
+        display: flex ;    
+    }
+
+
+
+    .top ol{
+        display: flex;
+        flex-wrap: wrap ;
+        width: 424px ;
+        height: 425px ;
+        justify-content: center;
+
+    }
+
+    .coluna2 h1{
+        margin-left: 0px;
+        margin-right: 320px ;
+    }
+
+    
+    
+    .coluna2 img{
+        width: 102px ;
+        height: 150px ;
+    }
+
+    .comments {
+        margin-top: 30px;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        width: 384px ;
+        min-height: 236px ;
+        justify-content: unset   ;
+        align-items: center;
+    }
+
+
+
+
+
+    .comments h2{
+        margin-left: 30px;
+    }
+    
+    
+    .comments div form input{
+        width: 373px;
+        height: 36px;
+        margin-left: 30px ;    
+        margin-top: 30px;
+    }
+    
+    
+    .comments div form button{
+        width: 79px ;
+        height: 17px ;
+        margin-left: 30px ;
+        
+    }
+
+
+
+    .mensagem{
+        height: auto ;
+        width: 406px ;
+        margin-left: 40px ;
+        margin-bottom: 10px ;
+    }
+
+
+    
+
+
+    
+    footer{
+        width: 427px;
+        height: 100px;
+        background-color: #C4C4C4;
+        
+        
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        
+        gap: 0;
+        
+    }
+    
+    
+    .redesSocias{
+        width: 188px;
+        height: 32px ;
+        
+        gap: 5px;
+        margin-left: 100px;
+    }
+    
+    .redesSocias img{
+        width: 24px;
+        height: 24px;
+        margin-top: 5px;
+        margin-bottom: 0;
+        border-radius: 50px ;
+        margin-left: 5px;
+    
+    }
+
+
+    
+    .contato a button{
+        width: 162px;
+        height: 38px;
+        border-radius: 6px ;
+        border: 1px solid #C4C4C4;
+        margin-top: 10px;
+        
+    }
+    
+
+
+    
+
+
+
+}
+
